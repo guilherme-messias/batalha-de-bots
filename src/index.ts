@@ -1,3 +1,5 @@
+import getRandomString from "./getRandomBotName";
+
 interface Bot {
   name: string;
   model: string;
@@ -18,3 +20,5 @@ const bot2: Bot = {
   energy: 100,
   attack: 5,
 };
+
+const getRandomBotName: string = getRandomString(bot1.name, bot2.name);
