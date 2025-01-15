@@ -1,16 +1,3 @@
-const bot1 = {
-  name: "R2-D2",
-  model: "astromech",
-  energy: 100,
-  attack: 10,
-};
-
-const bot2 = {
-  name: "C-3PO",
-  model: "protocol",
-  energy: 100,
-  attack: 5,
-};
 
 function teste(b1, b2, result) {
   let bot1, bot2;

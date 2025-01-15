@@ -14,5 +14,14 @@ export default function simulateBotBattle(bot1: Bot, bot2: Bot, randomBotName: s
     firstAttacker = bot2;
     secondAttacker = bot1;
   }
-  // todo: finalizar loop batalha
+
+  while (firstAttacker.energy > 0 && secondAttacker.energy > 0) {
+    secondAttacker.energy -= firstAttacker.attack;
+    if (secondAttacker.energy <= 0) {
+      break;
+    }
+    firstAttacker.energy -= secondAttacker.attack;
+  }
+  
+  return firstAttacker.energy > 0 ? firstAttacker : secondAttacker;
 }
