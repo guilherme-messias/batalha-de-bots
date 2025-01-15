@@ -51,55 +51,14 @@
                 <mxCell id="XbpxEKsQaYPYC-7bSnLT-1" value="Winner of the Draw" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="280.5" y="260" width="267" height="70" as="geometry"/>
                 </mxCell>
-            </root>
-        </mxGraphModel>
-    </diagram>
-    <diagram name="Duel Pt. 2" id="hcagmdFrc251DdSmYhvr">
-        <mxGraphModel dx="1002" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-            <root>
-                <mxCell id="3ujqhtdzWrlsHKEeryZV-0"/>
-                <mxCell id="3ujqhtdzWrlsHKEeryZV-1" parent="3ujqhtdzWrlsHKEeryZV-0"/>
-                <mxCell id="3ujqhtdzWrlsHKEeryZV-2" value="Nome" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3ujqhtdzWrlsHKEeryZV-1">
-                    <mxGeometry x="138" y="410" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="3ujqhtdzWrlsHKEeryZV-3" value="Modelo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3ujqhtdzWrlsHKEeryZV-1">
-                    <mxGeometry x="138" y="510" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="3ujqhtdzWrlsHKEeryZV-4" value="Energia" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3ujqhtdzWrlsHKEeryZV-1">
-                    <mxGeometry x="138" y="620" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="3ujqhtdzWrlsHKEeryZV-5" value="Ataque" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3ujqhtdzWrlsHKEeryZV-1">
-                    <mxGeometry x="138" y="730" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="3ujqhtdzWrlsHKEeryZV-6" value="Bot" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3ujqhtdzWrlsHKEeryZV-1">
-                    <mxGeometry x="168" y="350" width="60" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="3ujqhtdzWrlsHKEeryZV-7" value="Nome" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3ujqhtdzWrlsHKEeryZV-1">
-                    <mxGeometry x="508" y="410" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="3ujqhtdzWrlsHKEeryZV-8" value="Modelo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3ujqhtdzWrlsHKEeryZV-1">
-                    <mxGeometry x="508" y="510" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="3ujqhtdzWrlsHKEeryZV-9" value="Energia" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3ujqhtdzWrlsHKEeryZV-1">
-                    <mxGeometry x="508" y="620" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="3ujqhtdzWrlsHKEeryZV-10" value="Ataque" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3ujqhtdzWrlsHKEeryZV-1">
-                    <mxGeometry x="508" y="730" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="3ujqhtdzWrlsHKEeryZV-11" value="Bot" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3ujqhtdzWrlsHKEeryZV-1">
-                    <mxGeometry x="538" y="350" width="60" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="3ujqhtdzWrlsHKEeryZV-12" value="Status" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3ujqhtdzWrlsHKEeryZV-1">
-                    <mxGeometry x="331" y="70" width="166" height="90" as="geometry"/>
-                </mxCell>
-                <mxCell id="3ujqhtdzWrlsHKEeryZV-13" value="Winner of the Draw" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3ujqhtdzWrlsHKEeryZV-1">
-                    <mxGeometry x="280" y="220" width="267" height="70" as="geometry"/>
+                <mxCell id="1LM8u96Sc9BY13FEfl4s-1" value="The draw is complete! Follow the battle progress live in your browser console!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="179" y="440" width="470" height="50" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="mIjxOquyLlB7nOX95v3n" name="Winner">
-        <mxGraphModel dx="734" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1002" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
