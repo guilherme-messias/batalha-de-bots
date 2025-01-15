@@ -1,4 +1,5 @@
 import getRandomString from "./getRandomBotName";
+import simulateBotBattle from "./simulateBotBattle";
 const bot1 = {
     name: "R2-D2",
     model: "astromech",
@@ -12,3 +13,4 @@ const bot2 = {
     attack: 5,
 };
 const getRandomBotName = getRandomString(bot1.name, bot2.name);
+const winnerBot = simulateBotBattle(bot1, bot2, getRandomBotName);
