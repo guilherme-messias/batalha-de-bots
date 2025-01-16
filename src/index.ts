@@ -24,8 +24,10 @@ startBattle.addEventListener("click", () => {
     energy: Number((document.getElementById("bot2-energy") as HTMLInputElement).value),
     attack: Number((document.getElementById("bot2-attack") as HTMLInputElement).value),
   };
+
+  const getRandomBotName: string = getRandomString(bot1.name, bot2.name);
+
+  const winnerBot: Bot = simulateBotBattle(bot1, bot2, getRandomBotName);
 });
 
-const getRandomBotName: string = getRandomString(bot1.name, bot2.name);
 
-const winnerBot: Bot = simulateBotBattle(bot1, bot2, getRandomBotName);
