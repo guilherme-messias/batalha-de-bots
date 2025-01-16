@@ -8,6 +8,9 @@ interface Bot {
   attack: number;
 }
 
+const divInitialDrawWinner = document.getElementById("initial-draw-winner") as HTMLDivElement;
+const divDuelSection = document.getElementById("duel-section") as HTMLDivElement;
+
 window.onload = () => {
   const storedBot1 = localStorage.getItem("bot1");
   const storedBot2 = localStorage.getItem("bot2");
@@ -17,10 +20,13 @@ window.onload = () => {
     const bot2: Bot = JSON.parse(storedBot2);
 
     const getRandomBotName: string = getRandomString(bot1.name, bot2.name);
-    const winnerBot: Bot = simulateBotBattle(bot1, bot2, getRandomBotName);
+    divInitialDrawWinner.innerHTML = `The initial draw winner is: ${getRandomBotName}`;
 
-    console.log(winnerBot);
+    setTimeout(() => {
+      divDuelSection.innerHTML = `The draw is complete! Follow the battle progress live in your browser console!`;
+      const winnerBot: Bot = simulateBotBattle(bot1, bot2, getRandomBotName);
+    }, 2000);
   } else {
-    console.log('Bots não encontrados no localStorage');
+    console.log("Bots não encontrados no localStorage");
   }
 };

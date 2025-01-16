@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="VO9TcY7e9WU0KmdNNvZW" name="Homepage">
-        <mxGraphModel dx="1002" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="702" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -41,17 +41,17 @@
         </mxGraphModel>
     </diagram>
     <diagram id="agGuCrNhFPMDtSVx02Rr" name="Duel">
-        <mxGraphModel dx="1002" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="702" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="Lj0KjRmt7v_nU5nReb7s-11" value="Status" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="331" y="80" width="166" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="XbpxEKsQaYPYC-7bSnLT-1" value="Winner of the Draw" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="XbpxEKsQaYPYC-7bSnLT-1" value="Winner of the Draw" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="280.5" y="260" width="267" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="1LM8u96Sc9BY13FEfl4s-1" value="The draw is complete! Follow the battle progress live in your browser console!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="1LM8u96Sc9BY13FEfl4s-1" value="The draw is complete! Follow the battle progress live in your browser console!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="179" y="440" width="470" height="50" as="geometry"/>
                 </mxCell>
             </root>
