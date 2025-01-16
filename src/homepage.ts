@@ -22,6 +22,11 @@ startBattle.addEventListener("click", () => {
     attack: Number((document.getElementById("bot2-attack") as HTMLInputElement).value),
   };
 
+  localStorage.setItem("bot1", JSON.stringify(bot1));
+  localStorage.setItem("bot2", JSON.stringify(bot2));
+
+  window.location.href = "../public/duel.html";
+
 });
 
 
