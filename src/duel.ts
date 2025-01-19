@@ -22,9 +22,12 @@ window.onload = () => {
     const getRandomBotName: string = getRandomString(bot1.name, bot2.name);
     divInitialDrawWinner.innerHTML = `The initial draw winner is: ${getRandomBotName}`;
 
-    setTimeout( async () => {
+    setTimeout(async () => {
       divDuelSection.innerHTML = `The draw is complete! Follow the battle progress live in your browser console!`;
       const winnerBot: Bot = await simulateBotBattle(bot1, bot2, getRandomBotName);
+
+      localStorage.setItem("winnerBot", JSON.stringify(winnerBot));
+      window.location.href = "../public/winner.html";
     }, 2000);
   } else {
     console.log("Bots não encontrados no localStorage");
