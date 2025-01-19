@@ -32,7 +32,7 @@ export default async function simulateBotBattle(bot1: Bot, bot2: Bot, randomBotN
 
     console.log(`${secondAttacker.name} attacks ${firstAttacker.name}!`);
     firstAttacker.energy -= secondAttacker.attack;
-    console.log(`${firstAttacker.name} has ${firstAttacker.energy} energy left .`);
+    console.log(`${firstAttacker.name} has ${firstAttacker.energy} energy left.`);
 
     await sleep(3000);
   }

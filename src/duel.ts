@@ -1,5 +1,5 @@
-import getRandomString from "./getRandomBotName";
-import simulateBotBattle from "./simulateBotBattle";
+import getRandomString from "./getRandomBotName.js";
+import simulateBotBattle from "./simulateBotBattle.js";
 
 interface Bot {
   name: string;
