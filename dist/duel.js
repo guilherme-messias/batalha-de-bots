@@ -1,5 +1,5 @@
-import getRandomString from "./getRandomBotName";
-import simulateBotBattle from "./simulateBotBattle";
+import getRandomString from "./getRandomBotName.js";
+import simulateBotBattle from "./simulateBotBattle.js";
 const divInitialDrawWinner = document.getElementById("initial-draw-winner");
 const divDuelSection = document.getElementById("duel-section");
 window.onload = () => {
