@@ -5,7 +5,11 @@ interface Bot {
   attack: number;
 }
 
-export default function simulateBotBattle(bot1: Bot, bot2: Bot, randomBotName: string): Bot {
+export default async function simulateBotBattle(bot1: Bot, bot2: Bot, randomBotName: string): Promise<Bot> {
+  function sleep(ms: number) {
+    return new Promise((resolve) => setTimeout(resolve, ms));
+  }
+
   let firstAttacker: Bot, secondAttacker: Bot;
   if (bot1.name === randomBotName) {
     firstAttacker = bot1;
@@ -20,6 +24,8 @@ export default function simulateBotBattle(bot1: Bot, bot2: Bot, randomBotName: s
     secondAttacker.energy -= firstAttacker.attack;
     console.log(`${secondAttacker.name} has ${secondAttacker.energy} energy left.`);
 
+    await sleep(3000);
+
     if (secondAttacker.energy <= 0) {
       break;
     }
@@ -27,6 +33,8 @@ export default function simulateBotBattle(bot1: Bot, bot2: Bot, randomBotName: s
     console.log(`${secondAttacker.name} attacks ${firstAttacker.name}!`);
     firstAttacker.energy -= secondAttacker.attack;
     console.log(`${firstAttacker.name} has ${firstAttacker.energy} energy left .`);
+
+    await sleep(3000);
   }
 
   return firstAttacker.energy > 0 ? firstAttacker : secondAttacker;
