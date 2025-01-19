@@ -3,3 +3,33 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 10rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem 10rem;
+}
+
+main #div-bots{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem 10rem;
+}
+
+main #div-bots h3 {
+  display: flex;
+  justify-content: center;
+  border: black;
+  color: var(--primary-color);
+
+}
