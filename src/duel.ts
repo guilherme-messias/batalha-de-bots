@@ -30,6 +30,6 @@ window.onload = () => {
       window.location.href = "../public/winner.html";
     }, 2000);
   } else {
-    console.log("Bots não encontrados no localStorage");
+    console.log("Bots not found in localStorage");
   }
 };
