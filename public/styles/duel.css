@@ -13,3 +13,9 @@ body {
   font-size: var(--small-size);
 }
 
+#duel-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: var(--small-size) var(--large-size);
+}
