@@ -29,7 +29,18 @@ main #div-bots{
 main #div-bots h3 {
   display: flex;
   justify-content: center;
-  border: black;
   color: var(--primary-color);
+  margin-left: var(--medium-size);
+  margin-right: var(--medium-size);
+  margin-bottom: var(--small-size);
+}
 
+main #div-bots input {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  padding: var(--small-size);
+  margin-bottom: var(--small-size);
+  margin-left: var(--medium-size);
+  margin-right: var(--medium-size);
 }
