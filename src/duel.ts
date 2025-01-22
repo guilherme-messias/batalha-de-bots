@@ -8,7 +8,7 @@ interface Bot {
   attack: number;
 }
 
-const divInitialDrawWinner = document.getElementById("initial-draw-winner") as HTMLDivElement;
+const divInitialDrawWinner = document.getElementById("initial-draw-container") as HTMLDivElement;
 const divDuelSection = document.getElementById("duel-section") as HTMLDivElement;
 
 window.onload = () => {
@@ -19,12 +19,12 @@ window.onload = () => {
     const bot1: Bot = JSON.parse(storedBot1);
     const bot2: Bot = JSON.parse(storedBot2);
 
-    const getRandomBotName: string = getRandomString(bot1.name, bot2.name);
-    divInitialDrawWinner.innerHTML = `<p id="initial-draw-winner">The initial draw winner is: ${getRandomBotName}</p>`;
+    const randomBotName: string = getRandomString(bot1.name, bot2.name);
+    divInitialDrawWinner.innerHTML = `<p id="initial-draw-winner">The initial draw winner is: ${randomBotName}</p>`;
 
     setTimeout(async () => {
       divDuelSection.innerHTML = `The draw is complete! Follow the battle progress live in your browser console!`;
-      const winnerBot: Bot = await simulateBotBattle(bot1, bot2, getRandomBotName);
+      const winnerBot: Bot = await simulateBotBattle(bot1, bot2, randomBotName);
 
       localStorage.setItem("winnerBot", JSON.stringify(winnerBot));
       window.location.href = "../public/winner.html";
