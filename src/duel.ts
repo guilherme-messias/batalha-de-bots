@@ -20,7 +20,7 @@ window.onload = () => {
     const bot2: Bot = JSON.parse(storedBot2);
 
     const getRandomBotName: string = getRandomString(bot1.name, bot2.name);
-    divInitialDrawWinner.innerHTML = `The initial draw winner is: ${getRandomBotName}`;
+    divInitialDrawWinner.innerHTML = `<p id="initial-draw-winner">The initial draw winner is: ${getRandomBotName}</p>`;
 
     setTimeout(async () => {
       divDuelSection.innerHTML = `The draw is complete! Follow the battle progress live in your browser console!`;
