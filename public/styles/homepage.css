@@ -4,21 +4,6 @@ body {
   background-repeat: no-repeat;
 }
 
-header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 2rem 10rem;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  padding: 3rem 10rem;
-}
-
 main #div-bots{
   display: flex;
   justify-content: space-around;

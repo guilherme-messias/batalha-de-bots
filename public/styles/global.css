@@ -34,3 +34,18 @@ h3 {
   font-size: var(--medium-size);
   color: var(--septenary-color);
 }
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 10rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem 10rem;
+}
