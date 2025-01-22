@@ -30,17 +30,19 @@ main #div-bots h3 {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
-  margin-left: var(--medium-size);
-  margin-right: var(--medium-size);
+  margin-left: var(--large-size);
+  margin-right: var(--large-size);
   margin-bottom: var(--small-size);
 }
 
 main #div-bots input {
   display: flex;
   justify-content: center;
+  font-family: "Audiowide", serif;
+  background-color: var(--quinary-color);
   color: var(--primary-color);
   padding: var(--small-size);
   margin-bottom: var(--small-size);
-  margin-left: var(--medium-size);
-  margin-right: var(--medium-size);
+  margin-left: var(--large-size);
+  margin-right: var(--large-size);
 }
