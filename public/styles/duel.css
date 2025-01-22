@@ -9,7 +9,7 @@ body {
   justify-content: center;
   background-color: antiquewhite;
   color: var(--primary-color);
-  margin-left: var(--large-size);
-  margin-right: var(--large-size);
-  margin-bottom: var(--small-size);
+  padding: var(--small-size);
+  font-size: var(--small-size);
 }
+
