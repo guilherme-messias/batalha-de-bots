@@ -5,7 +5,11 @@ interface Bot {
   attack: number;
 }
 
-export default async function simulateBotBattle(bot1: Bot, bot2: Bot, randomBotName: string): Promise<Bot> {
+export default async function simulateBotBattle(
+  bot1: Bot,
+  bot2: Bot,
+  randomBotName: string
+): Promise<Bot> {
   function sleep(ms: number) {
     return new Promise((resolve) => setTimeout(resolve, ms));
   }

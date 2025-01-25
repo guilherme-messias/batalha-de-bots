@@ -26,7 +26,4 @@ startBattle.addEventListener("click", () => {
   localStorage.setItem("bot2", JSON.stringify(bot2));
 
   window.location.href = "../public/duel.html";
-
 });
-
-
