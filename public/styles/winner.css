@@ -3,3 +3,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+#btn-play-again{
+  margin-top: var(--small-size);
+}
