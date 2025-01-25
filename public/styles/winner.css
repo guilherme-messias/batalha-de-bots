@@ -4,6 +4,14 @@ body {
   background-repeat: no-repeat;
 }
 
-#btn-play-again{
-  margin-top: var(--small-size);
+
+#winner-name{
+  font-size: var(--large-size);
+  color: var(--quaternary-color);
+  text-shadow: 9px 9px 9px var(--senary-color);
 }
+
+#btn-play-again{
+  margin-top: var(--large-size);
+}
+
