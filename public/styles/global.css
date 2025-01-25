@@ -36,6 +36,10 @@ h3 {
   color: var(--septenary-color);
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   display: flex;
   justify-content: space-around;
@@ -49,4 +53,20 @@ main {
   justify-content: space-around;
   align-items: center;
   padding: 3rem 10rem;
+}
+
+main input[type="button"] {
+  display: flex;
+  justify-content: center;
+  font-family: "Exo 2", serif;
+  background-color: var(--senary-color);
+  color: var(--septenary-color);
+  padding: var(--small-size);
+  margin-left: var(--large-size);
+  margin-right: var(--large-size);
+}
+
+main input[type="button"]:hover {
+  background-color: var(--secondary-color);
+  color: var(--septenary-color);
 }

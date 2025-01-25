@@ -4,7 +4,7 @@ body {
   background-repeat: no-repeat;
 }
 
-main #div-bots{
+main #div-bots {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -30,20 +30,4 @@ main #div-bots input {
   margin-bottom: var(--small-size);
   margin-left: var(--large-size);
   margin-right: var(--large-size);
-}
-
-main input[type="button"] {
-  display: flex;
-  justify-content: center;
-  font-family: "Exo 2", serif;
-  background-color: var(--senary-color);
-  color: var(--septenary-color);
-  padding: var(--small-size);
-  margin-left: var(--large-size);
-  margin-right: var(--large-size);
-}
-
-main input[type="button"]:hover {
-  background-color: var(--secondary-color);
-  color: var(--septenary-color);
 }
